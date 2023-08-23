@@ -7,5 +7,5 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/blogs")
 public class BlogsController
 {
-    
+
 }
