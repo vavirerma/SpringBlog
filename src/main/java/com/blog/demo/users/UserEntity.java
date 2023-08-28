@@ -3,11 +3,17 @@ package com.blog.demo.users;
 
 import com.blog.demo.common.BaseEntity;
 import jakarta.persistence.*;
+import lombok.*;
 import org.springframework.data.annotation.CreatedDate;
 
 import java.util.Date;
 import java.util.UUID;
-
+;
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@ToString
+@Setter
 @Entity(name="users")
 public class UserEntity extends BaseEntity
 {
